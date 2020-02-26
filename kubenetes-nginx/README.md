@@ -14,16 +14,16 @@ After waiting, run `make status` and look for the ingress address.
 
 ## To observer behaviour.
 
-1. Run the monitor script:  `./`
+1. Run the monitor script:  `./monitor.bash 34.107.203.115`
 2. In another window, run: `kubectl set image deployment/nginx-deployment nginx=nginx:1.16-alpine`
 
-watch what happens to the monitor script
+watch what happens with the monitor script
 
-
-run another deployment
+To run another deployment
 
 1. `kubectl set image deployment/nginx-deployment nginx=nginx:1.17-alpine`
 
+observer behaviours
 
 ## Finish up
 
